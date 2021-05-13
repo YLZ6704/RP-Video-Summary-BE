@@ -21,6 +21,9 @@ Mac
 ```sh
     source venv/Script/activate
     pip install -r requirements.txt
+    mkdir -p ~/.punctuator
+    cd ~/.punctuator
+    gdown https://drive.google.com/uc?id=0B7BsN5f2F1fZd1Q0aXlrUDhDbnM
     python app.py
 ```
 Windows
@@ -28,6 +31,9 @@ Windows
     cd venv/Script/
     activate.bat
     pip install -r requirements.txt
+    mkdir -p ~/.punctuator
+    cd ~/.punctuator
+    gdown https://drive.google.com/uc?id=0B7BsN5f2F1fZd1Q0aXlrUDhDbnM
     python app.py
 ```
 ## Run in production
